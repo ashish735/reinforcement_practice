@@ -1,0 +1,19 @@
+Optimal Action-value and State-value functions
+
+    If the entire environment is known, such that we know our reward function and transition probability function, then we can solve for the optimal action-value and state-value functions via Dynamic Programming like
+        Policy evaluation, policy improvement, and policy iteration
+    However, typically we don't know the environment entirely then there is not closed form solution in getting optimal action-value and state-value functions. Hence, we need other iterative approaches like
+        Monte-Carlo methods
+        Temporal difference learning (model-free and learns with episodes)
+            On-policy TD: SARSA
+            Off-policy TD: Q-Learning and Deep Q-Learning (DQN)
+        Policy gradient
+            REINFORCE
+            Actor-Critic
+            A2C/A3C
+            ACKTR
+            PPO
+            DPG
+            DDPG (DQN + DPG)
+
+https://towardsdatascience.com/how-to-install-openai-gym-in-a-windows-environment-338969e24d30
